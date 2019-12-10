@@ -10,7 +10,6 @@
 		9AA5BDF320A09115009D5610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5BDEB20A09115009D5610 /* AppDelegate.swift */; };
 		9AA5BDF420A09115009D5610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA5BDEC20A09115009D5610 /* Assets.xcassets */; };
 		9AA5BDF520A09115009D5610 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA5BDED20A09115009D5610 /* Main.storyboard */; };
-		9AA5BDF720A09115009D5610 /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5BDF020A09115009D5610 /* Knob.swift */; };
 		9AA5BDF820A09115009D5610 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA5BDF120A09115009D5610 /* LaunchScreen.storyboard */; };
 		9AA5BDF920A09115009D5610 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5BDF220A09115009D5610 /* ViewController.swift */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		9AA5BDEC20A09115009D5610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AA5BDEE20A09115009D5610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AA5BDEF20A09115009D5610 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AA5BDF020A09115009D5610 /* Knob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knob.swift; sourceTree = "<group>"; };
 		9AA5BDF120A09115009D5610 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AA5BDF220A09115009D5610 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D2A5F2001F4A9144005CD714 /* KnobShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnobShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +42,6 @@
 				9AA5BDEC20A09115009D5610 /* Assets.xcassets */,
 				9AA5BDED20A09115009D5610 /* Main.storyboard */,
 				9AA5BDEF20A09115009D5610 /* Info.plist */,
-				9AA5BDF020A09115009D5610 /* Knob.swift */,
 				9AA5BDF120A09115009D5610 /* LaunchScreen.storyboard */,
 				9AA5BDF220A09115009D5610 /* ViewController.swift */,
 			);
@@ -143,7 +140,6 @@
 			files = (
 				9AA5BDF920A09115009D5610 /* ViewController.swift in Sources */,
 				9AA5BDF320A09115009D5610 /* AppDelegate.swift in Sources */,
-				9AA5BDF720A09115009D5610 /* Knob.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
