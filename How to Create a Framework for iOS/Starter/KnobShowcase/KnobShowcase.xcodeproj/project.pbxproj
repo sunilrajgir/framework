@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322A9ED1239F92A60035D035 /* KnobControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322A9ECF239F922D0035D035 /* KnobControl.framework */; };
+		322A9ED2239F92A60035D035 /* KnobControl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 322A9ECF239F922D0035D035 /* KnobControl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9AA5BDF320A09115009D5610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5BDEB20A09115009D5610 /* AppDelegate.swift */; };
 		9AA5BDF420A09115009D5610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA5BDEC20A09115009D5610 /* Assets.xcassets */; };
 		9AA5BDF520A09115009D5610 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA5BDED20A09115009D5610 /* Main.storyboard */; };
@@ -14,7 +16,32 @@
 		9AA5BDF920A09115009D5610 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5BDF220A09115009D5610 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		322A9ECE239F922D0035D035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 322A9ECA239F922D0035D035 /* KnobControl.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 322A9EA1239F90E30035D035;
+			remoteInfo = KnobControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		322A9ED3239F92A60035D035 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				322A9ED2239F92A60035D035 /* KnobControl.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		322A9ECA239F922D0035D035 /* KnobControl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KnobControl.xcodeproj; path = ../KnobControl/KnobControl.xcodeproj; sourceTree = "<group>"; };
 		9AA5BDEB20A09115009D5610 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AA5BDEC20A09115009D5610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AA5BDEE20A09115009D5610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,12 +56,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322A9ED1239F92A60035D035 /* KnobControl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		322A9ECB239F922D0035D035 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				322A9ECF239F922D0035D035 /* KnobControl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		322A9ED0239F92A60035D035 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9AA5BDEA20A09115009D5610 /* KnobShowcase */ = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +94,10 @@
 		D2A5F1F71F4A9143005CD714 = {
 			isa = PBXGroup;
 			children = (
+				322A9ECA239F922D0035D035 /* KnobControl.xcodeproj */,
 				9AA5BDEA20A09115009D5610 /* KnobShowcase */,
 				D2A5F2011F4A9144005CD714 /* Products */,
+				322A9ED0239F92A60035D035 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -76,6 +121,7 @@
 				D2A5F1FC1F4A9144005CD714 /* Sources */,
 				D2A5F1FD1F4A9144005CD714 /* Frameworks */,
 				D2A5F1FE1F4A9144005CD714 /* Resources */,
+				322A9ED3239F92A60035D035 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -113,12 +159,28 @@
 			mainGroup = D2A5F1F71F4A9143005CD714;
 			productRefGroup = D2A5F2011F4A9144005CD714 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 322A9ECB239F922D0035D035 /* Products */;
+					ProjectRef = 322A9ECA239F922D0035D035 /* KnobControl.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D2A5F1FF1F4A9144005CD714 /* KnobShowcase */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		322A9ECF239F922D0035D035 /* KnobControl.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = KnobControl.framework;
+			remoteRef = 322A9ECE239F922D0035D035 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D2A5F1FE1F4A9144005CD714 /* Resources */ = {
@@ -275,7 +337,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KnobShowcase/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.KnobShowcase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,7 +354,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KnobShowcase/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.KnobShowcase;
 				PRODUCT_NAME = "$(TARGET_NAME)";

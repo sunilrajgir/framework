@@ -27,6 +27,7 @@
 /// THE SOFTWARE.
 
 import UIKit
+import KnobControl
 
 class ViewController: UIViewController {
   
@@ -50,7 +51,7 @@ class ViewController: UIViewController {
     if sender is UISlider {
       knob.setValue(valueSlider.value)
     } else {
-      valueSlider.value = knob.value
+          valueSlider.value = knob.value
     }
     updateLabel()
   }

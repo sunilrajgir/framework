@@ -7,116 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		322A9E0D239F8C670035D035 /* KnobControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322A9E03239F8C670035D035 /* KnobControl.framework */; };
-		322A9E12239F8C670035D035 /* KnobControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A9E11239F8C670035D035 /* KnobControlTests.swift */; };
-		322A9E14239F8C670035D035 /* KnobControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 322A9E06239F8C670035D035 /* KnobControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		322A9E1E239F8CB60035D035 /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A9E1D239F8CB60035D035 /* Knob.swift */; };
-		322A9E20239F8CCC0035D035 /* RotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A9E1F239F8CCC0035D035 /* RotationGestureRecognizer.swift */; };
-		322A9E22239F8CFA0035D035 /* KnobRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A9E21239F8CFA0035D035 /* KnobRenderer.swift */; };
+		322A9EA6239F90E30035D035 /* KnobControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 322A9EA4239F90E30035D035 /* KnobControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		322A9EAF239F90FF0035D035 /* KnobRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A9EAC239F90FF0035D035 /* KnobRenderer.swift */; };
+		322A9EB0239F90FF0035D035 /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A9EAD239F90FF0035D035 /* Knob.swift */; };
+		322A9EB1239F90FF0035D035 /* RotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A9EAE239F90FF0035D035 /* RotationGestureRecognizer.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		322A9E0E239F8C670035D035 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 322A9DFA239F8C670035D035 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 322A9E02239F8C670035D035;
-			remoteInfo = KnobControl;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		322A9E03239F8C670035D035 /* KnobControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KnobControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		322A9E06239F8C670035D035 /* KnobControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnobControl.h; sourceTree = "<group>"; };
-		322A9E07239F8C670035D035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		322A9E0C239F8C670035D035 /* KnobControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnobControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		322A9E11239F8C670035D035 /* KnobControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnobControlTests.swift; sourceTree = "<group>"; };
-		322A9E13239F8C670035D035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		322A9E1D239F8CB60035D035 /* Knob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knob.swift; sourceTree = "<group>"; };
-		322A9E1F239F8CCC0035D035 /* RotationGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureRecognizer.swift; sourceTree = "<group>"; };
-		322A9E21239F8CFA0035D035 /* KnobRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnobRenderer.swift; sourceTree = "<group>"; };
+		322A9EA1239F90E30035D035 /* KnobControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KnobControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		322A9EA4239F90E30035D035 /* KnobControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnobControl.h; sourceTree = "<group>"; };
+		322A9EA5239F90E30035D035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322A9EAC239F90FF0035D035 /* KnobRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnobRenderer.swift; sourceTree = "<group>"; };
+		322A9EAD239F90FF0035D035 /* Knob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knob.swift; sourceTree = "<group>"; };
+		322A9EAE239F90FF0035D035 /* RotationGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationGestureRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		322A9E00239F8C670035D035 /* Frameworks */ = {
+		322A9E9E239F90E30035D035 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		322A9E09239F8C670035D035 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				322A9E0D239F8C670035D035 /* KnobControl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		322A9DF9239F8C670035D035 = {
+		322A9E97239F90E30035D035 = {
 			isa = PBXGroup;
 			children = (
-				322A9E05239F8C670035D035 /* KnobControl */,
-				322A9E10239F8C670035D035 /* KnobControlTests */,
-				322A9E04239F8C670035D035 /* Products */,
+				322A9EA3239F90E30035D035 /* KnobControl */,
+				322A9EA2239F90E30035D035 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		322A9E04239F8C670035D035 /* Products */ = {
+		322A9EA2239F90E30035D035 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				322A9E03239F8C670035D035 /* KnobControl.framework */,
-				322A9E0C239F8C670035D035 /* KnobControlTests.xctest */,
+				322A9EA1239F90E30035D035 /* KnobControl.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		322A9E05239F8C670035D035 /* KnobControl */ = {
+		322A9EA3239F90E30035D035 /* KnobControl */ = {
 			isa = PBXGroup;
 			children = (
-				322A9E1D239F8CB60035D035 /* Knob.swift */,
-				322A9E06239F8C670035D035 /* KnobControl.h */,
-				322A9E07239F8C670035D035 /* Info.plist */,
-				322A9E1F239F8CCC0035D035 /* RotationGestureRecognizer.swift */,
-				322A9E21239F8CFA0035D035 /* KnobRenderer.swift */,
+				322A9EAD239F90FF0035D035 /* Knob.swift */,
+				322A9EAC239F90FF0035D035 /* KnobRenderer.swift */,
+				322A9EAE239F90FF0035D035 /* RotationGestureRecognizer.swift */,
+				322A9EA4239F90E30035D035 /* KnobControl.h */,
+				322A9EA5239F90E30035D035 /* Info.plist */,
 			);
 			path = KnobControl;
-			sourceTree = "<group>";
-		};
-		322A9E10239F8C670035D035 /* KnobControlTests */ = {
-			isa = PBXGroup;
-			children = (
-				322A9E11239F8C670035D035 /* KnobControlTests.swift */,
-				322A9E13239F8C670035D035 /* Info.plist */,
-			);
-			path = KnobControlTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		322A9DFE239F8C670035D035 /* Headers */ = {
+		322A9E9C239F90E30035D035 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				322A9E14239F8C670035D035 /* KnobControl.h in Headers */,
+				322A9EA6239F90E30035D035 /* KnobControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		322A9E02239F8C670035D035 /* KnobControl */ = {
+		322A9EA0239F90E30035D035 /* KnobControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 322A9E17239F8C670035D035 /* Build configuration list for PBXNativeTarget "KnobControl" */;
+			buildConfigurationList = 322A9EA9239F90E30035D035 /* Build configuration list for PBXNativeTarget "KnobControl" */;
 			buildPhases = (
-				322A9DFE239F8C670035D035 /* Headers */,
-				322A9DFF239F8C670035D035 /* Sources */,
-				322A9E00239F8C670035D035 /* Frameworks */,
-				322A9E01239F8C670035D035 /* Resources */,
+				322A9E9C239F90E30035D035 /* Headers */,
+				322A9E9D239F90E30035D035 /* Sources */,
+				322A9E9E239F90E30035D035 /* Frameworks */,
+				322A9E9F239F90E30035D035 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -124,47 +90,25 @@
 			);
 			name = KnobControl;
 			productName = KnobControl;
-			productReference = 322A9E03239F8C670035D035 /* KnobControl.framework */;
+			productReference = 322A9EA1239F90E30035D035 /* KnobControl.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		322A9E0B239F8C670035D035 /* KnobControlTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 322A9E1A239F8C670035D035 /* Build configuration list for PBXNativeTarget "KnobControlTests" */;
-			buildPhases = (
-				322A9E08239F8C670035D035 /* Sources */,
-				322A9E09239F8C670035D035 /* Frameworks */,
-				322A9E0A239F8C670035D035 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				322A9E0F239F8C670035D035 /* PBXTargetDependency */,
-			);
-			name = KnobControlTests;
-			productName = KnobControlTests;
-			productReference = 322A9E0C239F8C670035D035 /* KnobControlTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		322A9DFA239F8C670035D035 /* Project object */ = {
+		322A9E98239F90E30035D035 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = sunil.kumar1;
 				TargetAttributes = {
-					322A9E02239F8C670035D035 = {
+					322A9EA0239F90E30035D035 = {
 						CreatedOnToolsVersion = 11.2.1;
 						LastSwiftMigration = 1120;
 					};
-					322A9E0B239F8C670035D035 = {
-						CreatedOnToolsVersion = 11.2.1;
-					};
 				};
 			};
-			buildConfigurationList = 322A9DFD239F8C670035D035 /* Build configuration list for PBXProject "KnobControl" */;
+			buildConfigurationList = 322A9E9B239F90E30035D035 /* Build configuration list for PBXProject "KnobControl" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -172,26 +116,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 322A9DF9239F8C670035D035;
-			productRefGroup = 322A9E04239F8C670035D035 /* Products */;
+			mainGroup = 322A9E97239F90E30035D035;
+			productRefGroup = 322A9EA2239F90E30035D035 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				322A9E02239F8C670035D035 /* KnobControl */,
-				322A9E0B239F8C670035D035 /* KnobControlTests */,
+				322A9EA0239F90E30035D035 /* KnobControl */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		322A9E01239F8C670035D035 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		322A9E0A239F8C670035D035 /* Resources */ = {
+		322A9E9F239F90E30035D035 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -201,36 +137,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		322A9DFF239F8C670035D035 /* Sources */ = {
+		322A9E9D239F90E30035D035 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				322A9E1E239F8CB60035D035 /* Knob.swift in Sources */,
-				322A9E22239F8CFA0035D035 /* KnobRenderer.swift in Sources */,
-				322A9E20239F8CCC0035D035 /* RotationGestureRecognizer.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		322A9E08239F8C670035D035 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				322A9E12239F8C670035D035 /* KnobControlTests.swift in Sources */,
+				322A9EAF239F90FF0035D035 /* KnobRenderer.swift in Sources */,
+				322A9EB1239F90FF0035D035 /* RotationGestureRecognizer.swift in Sources */,
+				322A9EB0239F90FF0035D035 /* Knob.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		322A9E0F239F8C670035D035 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 322A9E02239F8C670035D035 /* KnobControl */;
-			targetProxy = 322A9E0E239F8C670035D035 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		322A9E15239F8C670035D035 /* Debug */ = {
+		322A9EA7239F90E30035D035 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -293,7 +213,7 @@
 			};
 			name = Debug;
 		};
-		322A9E16239F8C670035D035 /* Release */ = {
+		322A9EA8239F90E30035D035 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -350,7 +270,7 @@
 			};
 			name = Release;
 		};
-		322A9E18239F8C670035D035 /* Debug */ = {
+		322A9EAA239F90E30035D035 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -375,7 +295,7 @@
 			};
 			name = Debug;
 		};
-		322A9E19239F8C670035D035 /* Release */ = {
+		322A9EAB239F90E30035D035 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -399,73 +319,28 @@
 			};
 			name = Release;
 		};
-		322A9E1B239F8C670035D035 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = KnobControlTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = in.til.popkarn.KnobControlTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		322A9E1C239F8C670035D035 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = KnobControlTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = in.til.popkarn.KnobControlTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		322A9DFD239F8C670035D035 /* Build configuration list for PBXProject "KnobControl" */ = {
+		322A9E9B239F90E30035D035 /* Build configuration list for PBXProject "KnobControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				322A9E15239F8C670035D035 /* Debug */,
-				322A9E16239F8C670035D035 /* Release */,
+				322A9EA7239F90E30035D035 /* Debug */,
+				322A9EA8239F90E30035D035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		322A9E17239F8C670035D035 /* Build configuration list for PBXNativeTarget "KnobControl" */ = {
+		322A9EA9239F90E30035D035 /* Build configuration list for PBXNativeTarget "KnobControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				322A9E18239F8C670035D035 /* Debug */,
-				322A9E19239F8C670035D035 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		322A9E1A239F8C670035D035 /* Build configuration list for PBXNativeTarget "KnobControlTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				322A9E1B239F8C670035D035 /* Debug */,
-				322A9E1C239F8C670035D035 /* Release */,
+				322A9EAA239F90E30035D035 /* Debug */,
+				322A9EAB239F90E30035D035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 322A9DFA239F8C670035D035 /* Project object */;
+	rootObject = 322A9E98239F90E30035D035 /* Project object */;
 }

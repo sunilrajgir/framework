@@ -47,7 +47,7 @@ class KnobRenderer {
 
   private (set) var pointerAngle: CGFloat = CGFloat(-Double.pi) * 11 / 8
 
-  func setPointerAngle(_ newPointerAngle: CGFloat, animated: Bool = false) {
+  public func setPointerAngle(_ newPointerAngle: CGFloat, animated: Bool = false) {
     CATransaction.begin()
     CATransaction.setDisableActions(true)
 
